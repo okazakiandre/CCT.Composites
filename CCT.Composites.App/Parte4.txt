@@ -1,0 +1,32 @@
+﻿CCT - Refatorando métodos legados com composite
+===================================================
+
+- Como esse conhecimento te ajuda?
+  - testar e refatorar métodos que percorrem composites grandes
+  - melhorar o design das suas classes
+  - facilitar os testes
+
+- Mostrar código
+
+- Por que é um problema?
+  - mostrar testes
+  - na vida real, as classes são complexas
+  - muitas regras no mesmo método
+  - parece esquisito, falta coesão
+  - teste fica complexo
+
+- Como resolver
+  - isso indica que precisa refatorar
+    - setups muito complexos ou muito longos
+    - muitos asserts
+    - métodos que podem ser static
+  - baby steps, sempre
+    - cubra com testes
+    - quebre em métodos menores
+    - mova o método para a classe "certa"
+    - mova e altere os testes
+
+- Conclusão
+  - atenção aos sinais que o código dá
+  - busque código cada vez mais simples e coeso
+  - teste de unidade evidencia os problemas
